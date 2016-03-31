@@ -1,0 +1,79 @@
+· Un usuario se registra para poder comprar en la cafetería
+	* elige entre personal y alumno (distinción de interfaz entre personal y alumno: colores o algo)
+CASOS DE USO / ESCENARIOS:
+
+· Un usuario inicia sesión 
+ 	- Mete dinero en el monedero
+	- Cambia los datos de su perfil
+	- Consulta sus últimos movimientos
+	- Compra
+· Un usuario inicia sesión para comprar
+	- Con tarjeta
+	- En efectivo
+	- Monedero
+· Un usuario elige los producto que quiere consumir en la cafeteria
+	- Menú
+	- Productos Individuales
+	- Ofertas, planes mensuales
+· Se le comunica al usuario que su pedido se ha recibido con éxito y recibe un ticket
+· El usuario acude a recoger el pedido cuando se le avisa por pantalla (número de pedido)
+
+-------------------------------------------------------------------------------------------
+
+· Un usuario sin tener que registrarse quiere comprar
+	* No tiene monedero al no estar registrado
+	* Tampoco tiene acceso a ofertas de la universidad
+
+----------------------------------------------------------------
+
+· El cocinero recibe la comanda del sistema (pedido de usuario) y confirma su llega
+	* Una lista de comandas por orden de prioridad
+· El cocinero produce la comida
+· El cocinero indica que ya está listo en un botón
+	* El sistema actualiza el estado del inventario (consumidos)
+· Se pone a hacer el siguiente pedido si existe
+
+------------------------------------------------------------------------
+
+· El cocinero actualiza los ingredientes disponibles cuando llega la compra de los proveedores o caducan algunos alimentos
+
+------------------------------------------------------------------------
+
+· El camarero recibe un aviso de comanda lista con su número 
+· LLeva el pedido de la cocina a la barra
+· Comprueba el ticket del usuario y le entrega el pedido
+
+------------------------------------------------------------------------
+
+· El camarero soluciona algún problema del sistema o alguna equivocación con la comanda
+
+------------------------------------------------------------------------
+
+· El adminitrador accede como tal a la aplicación con una contraseña
+· El administrador puede ver distintos informes de la cafetería según elija
+	* Ventas, inventario, gastos, horas de trabajo del personal, etc...
+
+
+
+MOCKUPS:
+
+pantalla de inicio (login, registrarse, compra sin registro, idioma, ayuda, etc...)
+registro (formulario): nombre, apellidos, alumno o profesor, edad, nia (opcional), usuario, contraseña, correo contacto
+pantalla de login: usuario, contraseña, recuperar contraseña
+pantalla de recuperar contraseña: mensaje enviado al correo de contacto
+pantalla de usuario: opciones de comprar, consultar movimientos, monedero (saldo + editar), modificar perfil y cerrar sesión.
+pantalla de compra: botón de finalizar compra o cancelar + lista de productos elegidos
+	- pestaña de lista de productos (normales)
+	- pestaña de lista de menús (desyaunos, comidas, etc)
+	- pestaña de ofertas (si es usuario registrado)
+pantalla de confirmación de compra: resumen de la compra
+pantalla de consulta de movimientos
+pantalla de información de perfil con botón de editar
+pantalla de monedero: importe y método de pago
+pantalla de confirmación de monedero
+pantalla de error
+
+pantalla de cocinero: lista con comanda recibidas y en cada una botón de realizado
+
+pantalla de avisos: lista con números de pedidos pendientes de recoger
+
