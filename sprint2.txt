@@ -1,6 +1,9 @@
+CASOS DE USO / ESCENARIOS:
+
 · Un usuario se registra para poder comprar en la cafetería
 	* elige entre personal y alumno (distinción de interfaz entre personal y alumno: colores o algo)
-CASOS DE USO / ESCENARIOS:
+
+--------------------------------------------------------------------------------------------
 
 · Un usuario inicia sesión 
  	- Mete dinero en el monedero
